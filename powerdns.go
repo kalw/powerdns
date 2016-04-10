@@ -249,7 +249,3 @@ func (p *PowerDNS) GetCombinedRecords(ApiKey string) ([]CombinedRecord, error) {
 
 	return records, nil
 }
-
-func init() {
-
-}
